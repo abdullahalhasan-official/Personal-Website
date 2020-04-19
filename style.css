@@ -1,0 +1,134 @@
+/*MAIN MENU CSS IS GIVEN BELOW*/
+
+*{margin: 0px; padding: 0px;}
+body{font-family: arial; font-size: 15px; line-height: 25px;color:#333;}
+#primary_menu{list-style: none;}
+#primary_menu li{float: left; position: relative; z-index: 1;}
+#primary_menu li a{color:white; font-weight: bold;text-decoration: none; padding: 20px 30px;display: block;
+	transition: all 1s; }
+#primary_menu li a:hover{background:#f36716; color:#fff;}
+
+img{width: 100%;}
+
+.displaySize{width: 1170px; margin: auto;}
+
+nav#mainNav{ width: 100%; background: #00374c;border-bottom: 3px solid #f36716;display: table;}
+
+#menuContainer{width: 900px; float: right;}
+#logodiv{width: 80px;float: left;padding: 10px 0px;text-align: center;}
+#logodiv img{margin-bottom: -25px;}
+
+/*DROPDAWN MENU CSS IS GIVEN BELOW*/
+
+#sub_menu{list-style: none;background: #00374c; width: 280px; position: absolute; left:0px;top:66px; 
+	border-top: 2px solid white; opacity: 0px;transform: scaleY(0);transform-origin:top; 
+	transition: all 0.4s;}
+
+#sub_menu li{float: none;}
+#sub_menu li a{color: white;padding: 10px;}
+#primary_menu li:hover #sub_menu{opacity: 1px; transform: scaleY(1); }
+#sub_menu li:hover a{padding-left: 50px;}
+
+
+/*OUR SERVICES & BG CSS IS GIVEN BELOW*/
+h1,h2,h3,h4,h5,h6{font-family: arial black;}
+img{max-width: 100%}
+
+#service_block{
+
+	background: #ffffff;
+	width: 335px;
+	line-height: 20px;
+	padding: 15px;
+	display: inline-block;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin: 10px;
+	animation-name: xoomInMyBoxes;
+	animation-direction: 2s;
+	transition: 1s;
+}
+
+#service_block:hover #right_Content h2{transform: translateX(100px);}
+#service_block:hover {background: transparent;color: white;cursor: pointer;transform: translateY(-20px);}
+
+@keyframes xoomInMyBoxes{
+	from{transform: scale(0)}
+	to{transform: scale(1)}
+}
+
+#service_block:hover i{color: white;}
+#section_title{text-align: center;}
+
+div#right_Content{width: 250px;float: right;}
+#left_Icon{width: 70px; font-size: 50px; float: left;margin-top: 10px; color: #ff5722;}
+#right_Content #left_Icon{display: inline-block;}
+
+
+#right_Content h2{margin-bottom: 10px; font-size: 18px; transition: transform 1s;}
+
+#right_Content p{font-size: 13px;}
+
+
+div#all_blocks{width: 1170px; margin:auto; padding: 20px 0px;overflow: hidden;}
+
+section#service_section{background: height: 500px;background:
+	linear-gradient(#00000075,#00000075),
+	linear-gradient(#00000075,#00000075),
+	url(image/slide.JPG); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left top;
+	color: black; 
+	}
+section{padding: 50px 0px;}
+
+div#section_title{font-size: 30px;margin-bottom: 40px;}
+
+
+section#service_section div#section_title{color: white;}
+
+div#section_title h1 span{color: #ff5722;}
+
+
+/*ABOUT US CSS IS GIVEN BELOW*/
+
+
+div#about_image{width: 350px;border-radius: 3px solid #fff; background: #ddd; box-shadow: -1px 16px 50px -22px black;
+}
+
+div#aboutRight{width: 700px; float: right;}
+
+#aboutRight, #about_image{display: inline-block;}
+#about_contents_all{padding: 30px 0px;}
+
+
+div#aboutRight h2{margin-bottom: 25px;border-bottom: 2px solid #ddd;padding-bottom: 10px;}
+
+div#aboutRight p{font-size: 16px;color:#888;}
+
+/*FOOTER SECTION CSS IS GIVEN BELOW*/
+
+#footer_section{margin-top: 50px;background: #071d21;padding: 30px 0px; color: #cacaca;font-family: arial;
+	display: table;width: 100%;}
+#footer_section h2{font-family: arial;font-size: 15px;text-transform: uppercase;font-weight: bold;
+	border-bottom: 1px solid #ddd;margin-bottom: 15px;padding-bottom: 5px;}
+
+.footerBlock{width: 250px; margin: 0px 15px; float: left; overflow: hidden;}
+.subscribeform{width: 100%;}
+.subscribeform input{width: 100%;padding: 5px;margin: 5px 0px;}
+input#subscriceButton{background: #00374c;color: white;width: 100%;border:1px solid #00374c;padding: 10px;}
+
+ul#custom_menu{list-style: none;}
+ul#custom_menu li{width: 100% line-height:25px; border-bottom: 1px solid #1f3438;}
+ul#custom_menu li a{color: #a5a5a5;text-decoration: none;}
+ul#custom_menu li:last-child{border:none;}
+ul#custom_menu li:hover a{text-decoration: underline;}
+
+
+/*FOOTER CSS IS GIVEN BELOW*/
+
+footer{background: #00374c; color:#fff; text-align: center;}
+
+
+

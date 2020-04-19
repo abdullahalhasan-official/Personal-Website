@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu Tutorial</title>
+	<script src="https://kit.fontawesome.com/c98cd4626d.js" crossorigin="anonymous"></script>
+
+
+
+	<link rel="stylesheet" type="text/css" href="sliderassets/styles.css" media="all" />
+   
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- FlexSlider -->
+    <script type="text/javascript" src="sliderassets/js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+	
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+  });
+</script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<header>
+	<nav id="mainNav">
+	<div class="displaySize">
+		<div id="logodiv">
+			
+			<img width="150px;" src="image/aah_logo4.png">
+		</div>
+		<menu id="menuContainer">
+
+			<ul id="primary_menu">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">SERVICES</a>
+
+                 <ul id="sub_menu">
+                 	<li><a href="#service_block">WEB DESIGN</a></li>
+                 	<li><a href="#service_block">WEB DEVELOPMENT</a></li>
+                 	<li><a href="#service_block">GRAPHIC DESIGN</a></li>
+                 	<li><a href="#service_block">DIGITAL MARKETING</a></li>
+                 	<li><a href="#service_block">VIDEO EDITING</a></li>
+                 	<li><a href="#service_block">SEO</a></li>
+                 </ul>
+				</li>
+				<li><a href="#">PORTFOLIO</a></li>
+				<li><a href="#">YOUTUBE</a></li>
+				<li><a href="#">BLOG</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</menu>
+	</div>
+	</nav>
+</header>
+	<section id="homeslider">
+			     
+     <div class="slider_container">
+		<div class="flexslider">
+	      <ul class="slides">
+	    	<li>
+	    		<a href=""><img src="sliderassets/images/slider/slide1.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Shalbon Bihar, Comilla, Bangladesh.</h2><p>It’s a historical place in Cumilla area. It's a eye-catching and wonderful place in ever.It's also has Historical Museum.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href=""><img src="sliderassets/images/slider/slide2.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Shalbon Bihar, Comilla, Bangladesh.</h2><p>It’s a historical place in Cumilla area. It's a eye-catching and wonderful place in ever.It's also has Historical Museum.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href=""><img src="sliderassets/images/slider/slide3.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Shalbon Bihar, Comilla, Bangladesh.</h2><p>It’s a historical place in Cumilla area. It's a eye-catching and wonderful place in ever.It's also has Historical Museum.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href=""><img src="sliderassets/images/slider/slide4.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Shalbon Bihar, Comilla, Bangladesh.</h2><p>It’s a historical place in Cumilla area. It's a eye-catching and wonderful place in ever.It's also has Historical Museum.</p></div>
+                </div>
+	    	</li>
+	    </ul>
+	  </div>
+   </div>
+
+	</section>
+
+	<section id="service_section">
+
+     <div id="section_title">
+      <h1 id="section_title">OUR <span>SERVICES</span></h1>
+     </div>
+
+      <div id="all_blocks">
+
+<div id="service_block">
+
+<div id="left_Icon">    
+	<i class="fas fa-laptop"></i>
+</div> 
+
+<div id="right_Content">
+	<h2>WEB DESIGN</h2>
+	<p>Qualified web designs and attractive effects which catches visitor's Eye.Qualified web designs and attractive effects which catches visitor's Eye.</p>
+	
+</div>
+
+</div>
+
+<div id="service_block">
+
+<div id="left_Icon">    
+	<i class="fas fa-laptop"></i>
+</div> 
+
+<div id="right_Content">
+	<h2>WEB DEVELOPMENT</h2>
+	<p>Qualified web designs and attractive effects which catches visitor's Eye.Qualified web designs and attractive effects which catches visitor's Eye.</p>
+	
+</div>
+
+</div>
+
+<div id="service_block">
+
+<div id="left_Icon">    
+	<i class="fas fa-laptop"></i>
+</div> 
+
+<div id="right_Content">
+	<h2>GRAPHIC DESIGN</h2>
+	<p>Qualified web designs and attractive effects which catches visitor's Eye.Qualified web designs and attractive effects which catches visitor's Eye.</p>
+	
+</div>
+
+</div>
+
+<div id="service_block">
+
+<div id="left_Icon">    
+	<i class="fas fa-laptop"></i>
+</div> 
+
+<div id="right_Content">
+	<h2>DIGITAL MARKETING</h2>
+	<p>Qualified web designs and attractive effects which catches visitor's Eye.Qualified web designs and attractive effects which catches visitor's Eye.</p>
+	
+</div>
+
+</div>
+
+<div id="service_block">
+
+<div id="left_Icon">    
+	<i class="fas fa-laptop"></i>
+</div> 
+
+<div id="right_Content">
+	<h2>VIDEO EDITING</h2>
+	<p>Qualified web designs and attractive effects which catches visitor's Eye.Qualified web designs and attractive effects which catches visitor's Eye.</p>
+	
+</div>
+
+</div>
+
+<div id="service_block">
+
+<div id="left_Icon">    
+	<i class="fas fa-laptop"></i>
+</div> 
+
+<div id="right_Content">
+	<h2>SEO</h2>
+	<p>Qualified web designs and attractive effects which catches visitor's Eye.Qualified web designs and attractive effects which catches visitor's Eye.</p>
+	
+</div>
+
+</div>
+
+</div>
+
+
+</section>
+
+<section id="about_us">
+	<div id="all_blocks">
+
+  <div id="section_title">
+      <h1 id="section_title_text">ABOUT <span>US</span></h1>
+
+  </div>
+
+ <div id="about_contents_all">
+ 	
+ 	<div id="about_image">
+      	
+      	<img src="Image/AAH.JPG">
+      </div>    
+
+    <div id="aboutRight">
+
+ 	<h2>ABDULLAH AL HASAN</h2>
+ 	<P>I'm a Full Stack Web Developer mainly & I have good experience on SEO too. I'm currently performing as a Public Figure on My Youtube Channel. I have been working as a Web Developer over the last 2 years. I used to work on uttarainfotech.com & Now I'm in a partnership business with some of my clients. On the other side. I was the Chief Executive Officer of an Online Market called <a href="http://www.zotnoshop.com">ZOTNOSHOP.COM</a> </P>
+
+    <P>Moreover I used to work with different companies as a Customer Support manager, I handled inbound calls daily. Recently I am trying to work for the young generation as an Entrepreneur</P>
+
+ 	
+
+ </div>
+ </div>
+      
+</div>
+</section>
+
+
+<section id="footer_section">
+ 	
+ 	<div class="container displaySize">
+ 	<div class="footerBlock">
+ 		
+ 	<h2>Contact Us</h2>
+ 	 <p>Riaz Nagar(Autpara)
+ 	   <p>Word No:16</p>
+        <p>Post Office:Chandana
+          <p>Gazipur City Corporation.</p>
+            <p>Gazipur-1702 ,Bangladesh.</p>
+              <p>Email:info@abdullahalhasan.com</p>
+                <p>Mobile: 01914- 314 440</p>
+ 	</div>
+
+ 	<div class="footerBlock">
+ 		
+ 	<h2>Social Media</h2>
+ 	 <ul id="custom_menu">
+ 	 	<li><a href="https://www.facebook.com/abdullahalhasan40">Facebook</a></li>
+ 	 	<li><a href="https://www.youtube.com/channel/UCKAnNyH4cf582H68U7Ayj1Q">Youtube</a></li>
+ 	 	<li><a href="https://twitter.com/Abd_Al_Hasan">Twitter</a></li>
+ 	 	<li><a href="https://www.linkedin.com/in/abdullahalhasanbd/">Linkedin</a></li>
+ 	 	<li><a href="https://www.instagram.com/abdullahalhasan.ofiicial/">Instagram</a></li>
+ 	 	<li><a href="https://www.pinterest.com/abdullahalhasanaah/">Pinterest</a></li>
+ 	 	<li><a href="https://join.skype.com/invite/jpaFfZss8eWJ">Skype</a></li>
+ 	 </ul>
+ 	</div>
+
+ 	<div class="footerBlock">
+ 		
+ 	<h2>Custom Menu</h2>
+ 	 <ul id="custom_menu">
+ 	 	<li><a href="#">Home</a></li>
+ 	 	<li><a href="#">About Us</a></li>
+ 	 	<li><a href="#">Services</a></li>
+ 	 	<li><a href="#">Portfolio</a></li>
+ 	 	<li><a href="#">Youtube</a></li>
+ 	 	<li><a href="#">Blog</a></li>
+ 	 	<li><a href="#">Contact</a></li>
+ 	 </ul>
+ 	 
+ 	</div>
+
+ 	<div class="footerBlock">
+ 		
+ 	<h2>Subscribe Us</h2>
+ 	<div class="subscribeform">
+ 		<input type="text" placeholder="Enter Your Name."> <br/>
+ 		<input type="text" placeholder="Enter Your Email."> <br/>
+ 		<input id="subscriceButton" type="submit" value="Subscribe">
+
+ 	</div>
+ 	 
+ 	</div>	
+ 
+ 	</div>
+</section>
+
+<footer>
+    <div id="all_blocks">
+ 
+ 		<strong> Copyright &copy;2020 <span style="color: #ff5722;">Abdullah Al Hasan</span> All Rights Reserved.</strong>
+
+ 	</div>
+</footer>
+
+
+</body>
+</html>
